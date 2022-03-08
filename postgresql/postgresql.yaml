@@ -1,0 +1,9 @@
+dbPostgres:
+    image: postgres:10
+    restart: always
+    ports:
+        - 5432:5432
+    environment:
+        POSTGRES_USER: root
+        POSTGRES_PASSWORD: postgre321#
+        POSTGRES_DB: admin
