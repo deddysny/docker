@@ -19,3 +19,5 @@
 
 ## Running InfluxDB with Browser
 `http://localhost:8086`
+![image](https://user-images.githubusercontent.com/64342247/157626999-81c79f23-945d-45d6-829c-06766285b73f.png)
+
