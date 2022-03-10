@@ -14,6 +14,10 @@
 -   -e DOCKER_INFLUXDB_INIT_BUCKET=my-bucket \
 -   influxdb:2.0
 
+
+## create container resource limits
+`docker container create --name influxdb --publish 8086:8086 --memory 250m --cpus 1.5 influxdb:2.0 `
+
 ## start docker container
 `docker container start "ID Container"`
 
