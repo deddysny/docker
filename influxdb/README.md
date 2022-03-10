@@ -5,17 +5,17 @@
 
 ## Action
 - $ docker run -p 8086:8086 \
--      -v influxdb:/root/influxdb/data \
--      -v influxdb2:/var/lib/influxdb2 \
--      -v influxdb2-config:/etc/influxdb2 \
--      -v $PWD/influxdb.conf:/root/influxdb/influxdb.conf \
--      -e DOCKER_INFLUXDB_INIT_MODE=upgrade \
--      -e DOCKER_INFLUXDB_INIT_USERNAME=my-user \
--      -e DOCKER_INFLUXDB_INIT_PASSWORD=my-password \
--      -e DOCKER_INFLUXDB_INIT_ORG=my-org \
--      -e DOCKER_INFLUXDB_INIT_BUCKET=my-bucket \
--      -e DOCKER_INFLUXDB_INIT_UPGRADE_V1_CONFIG=/root/influxdb/influxdb.conf \
--      influxdb:2.0
+-    -v influxdb:/root/influxdb/data \
+-    -v influxdb2:/var/lib/influxdb2 \
+-    -v influxdb2-config:/etc/influxdb2 \
+-    -v $PWD/influxdb.conf:/root/influxdb/influxdb.conf \
+-    -e DOCKER_INFLUXDB_INIT_MODE=upgrade \
+-    -e DOCKER_INFLUXDB_INIT_USERNAME=my-user \
+-    -e DOCKER_INFLUXDB_INIT_PASSWORD=my-password \
+-    -e DOCKER_INFLUXDB_INIT_ORG=my-org \
+-    -e DOCKER_INFLUXDB_INIT_BUCKET=my-bucket \
+-    -e DOCKER_INFLUXDB_INIT_UPGRADE_V1_CONFIG=/root/influxdb/influxdb.conf \
+-    influxdb:2.0
 
 
 ## create container resource limits
