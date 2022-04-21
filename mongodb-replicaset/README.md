@@ -21,8 +21,6 @@ docker-compose up
 * docker start mongodb-replicaset_mongo-rs0-2_1
 
 ## Resources 
-* [Creating a Mongo replicaset using docker: Mongo replicaset + Nodejs + Docker Compose - Video](https://youtu.be/mlw7vWISaF4)
-* [Creating a Mongo replicaset using docker: Mongo replicaset + Nodejs + Docker Compose - Post](https://www.dlighthouse.co/2018/03/creating-mongo-replicaset-using-docker.html)
 * [Mongo Replication - Replica Set](https://docs.mongodb.com/manual/replication/)
 * [Deploy a Replica Set for Testing and Development](https://docs.mongodb.com/manual/tutorial/deploy-replica-set-for-testing/)
 * [Replication Options - Configuration File Options](https://docs.mongodb.com/manual/reference/configuration-options/#replication-options)
